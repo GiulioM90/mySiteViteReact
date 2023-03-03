@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 // https://www.youtube.com/watch?v=0fYi8SGA20k&list=WL&index=24&t=218s
 // Build and Deploy an Amazing 3D Web Developer Portfolio in React JS | Beginner Three.js 
-// 40:50
+// 1:00
 function App() {
   return (
    <BrowserRouter>
