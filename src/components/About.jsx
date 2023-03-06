@@ -38,9 +38,14 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div drag  dragConstraints={{
+      top: -50,
+      left: -50,
+      right: 50,
+      bottom: 50,
+    }} variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Introdution
+          Introduction
         </p>
         <h2 className={styles.sectionHeadText}>
           Overview.
